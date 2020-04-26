@@ -1,15 +1,9 @@
 import React from "react";
-
-import TwilioLogo from "@koheimukai/react-media-query";
+import { useMediaQuery } from "react-media-query";
 
 const App = () => {
-  return (
-    <TwilioLogo
-      height="240px"
-      width="520px"
-      customStyles={{ border: "1px solid black" }}
-    />
-  );
+  const matches = useMediaQuery("(min-width: 600px)");
+  return <div>{matches && <h1>Media query!</h1>}</div>;
 };
 
 export default App;

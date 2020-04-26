@@ -9,7 +9,7 @@
     "react": "file:../node_modules/react",
     "react-dom": "^16.9.0",
     "react-scripts": "^3.0.1",
-    "react-media-query": "file:.."
+    "react-media-query": "file:../"
   },
   "scripts": {
     "start": "react-scripts start",
