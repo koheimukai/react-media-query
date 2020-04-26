@@ -1,10 +1,13 @@
 {
   "name": "@koheimukai/react-media-query",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "a package that gives you custom react things",
   "author": "Kohei Mukai <npm.koheimukai@icloud.com>",
   "license": "MIT",
   "repository": "koheimukai/react-media-query",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",

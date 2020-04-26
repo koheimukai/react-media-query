@@ -1,6 +1,6 @@
 # react-media-query
 
-> a package that gives you custom react things
+> a package that allows you to see if a given media query matches
 
 [![NPM](https://img.shields.io/npm/v/react-media-query.svg)](https://www.npmjs.com/package/react-media-query) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -15,12 +15,12 @@ npm install --save react-media-query
 ```jsx
 import React, { Component } from 'react'
 
-import { useMyHook } from 'react-media-query'
+import { useMediaQuery } from 'react-media-query'
 
 const Example = () => {
-  const example = useMyHook()
+  const matches = useMediaQuery('(max-width: 600px)')
   return (
-    <div>{example}</div>
+    <div>{matches && <span>Mobile</span>}</div>
   )
 }
 ```
