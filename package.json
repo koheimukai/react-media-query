@@ -1,10 +1,10 @@
 {
-  "name": "react-media-query",
+  "name": "@koheimukai/react-media-query",
   "version": "1.0.0",
   "description": "a package that gives you custom react things",
-  "author": "",
+  "author": "Kohei Mukai <npm.koheimukai@icloud.com>",
   "license": "MIT",
-  "repository": "/react-media-query",
+  "repository": "koheimukai/react-media-query",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
