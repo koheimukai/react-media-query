@@ -15,7 +15,7 @@ npm install --save react-media-query
 ```jsx
 import React, { Component } from 'react'
 
-import { useMediaQuery } from 'react-media-query'
+import { useMediaQuery } from '@koheimukai/react-media-query'
 
 const Example = () => {
   const matches = useMediaQuery('(max-width: 600px)')
